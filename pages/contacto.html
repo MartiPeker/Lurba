@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:ital,wght@1,500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto | LurBa</title>
+
+</head>
+<body class="body"> 
+    <header class="header">
+        <img class= "logolurba" src="../images/logo.png" alt="Logo">
+        <nav class="nav">
+            <ul class="nav__list">            
+                <li class="nav__item">
+                <a class= "nav__enlace" href="../index.html">Inicio</a></li>
+                <li class="nav__item">
+                <a class="nav__enlace" href="../pages/piezas.html">Piezas</a></li>
+                <li class="nav__item">
+                <a class="nav__enlace" href="../pages/sobre_mi.html">Sobre mi</a></li>
+                <li class="nav__item">
+                <a class="nav__enlace" href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <main class="main">
+        <section class="grid-contacto">
+            <h1 class="main__tittle">Contacto</h1>
+            <h3 class="main__subtittle">Podes consultar-encargar a través de:</h3>
+            <div class="contacto-lur">
+                <img class="imagen__ajuste" src="../images/logo_correo.png" alt="logo_correo" width="30" height="30">
+                <a class= "links" href="mailto:lurbaceramica@hotmail.com">lurba.ceramica@hotmail.com</a>
+                <img class="imagen__ajuste" src="../images/logo_instagram.png" alt="logo_instagram" width="30" height="30">
+                <a class= "links" href="https//:www.instagram.com/lurbaceramica">LurBa Ceramica</a>
+            </div>
+
+            <section class= "formulario">          
+                <h3 class="main__subtittle">Tambien podes dejarnos tu consulta aca!</h3>
+                <h4 class="main__subtittle">Recorda ingresar tu número de contacto asi te respondemos a la brevedad :)</h4>
+                <form class="bloquesecundario">
+                    <div>
+                        <label class= "item-formulario" for="nombre">Nombre:</label>
+                        <input class= "item-formulario" type="text" name="nombre" id="nombre" placeholder="Decinos tu nombre...">
+                    </div>
+                    <div>
+                        <label class= "item-formulario" for="telefono"> Telefono:</label>
+                        <input class= "item-formulario" type="number" id="telefono" name="telefono" placeholder="Ingresa un telefono...">               
+                        <label class= "item-formulario" for="motivo">Motivo:</label>
+
+                        <select name="motivo" id="motivo">
+                            <option value="Consulta">Consulta</option>
+                            <option value="Envios">Envios</option>
+                            <option value="Pedido">Pedidos</option>
+                        </select>                         
+                    </div>
+                     <br>
+                    <div>
+                        <textarea name="comentario" id="comentario"
+                        cols="70" rows="10"></textarea>
+                        <input type="submit" value="Enviar">                
+                        <input type="reset" value="Limpiar">          
+                    </div>
+                </form>
+            </section>
+
+            
+            <section class="grid-colaboraciones">
+                <h1 class="main__tittle">Contacto de colaboraciones:</h1>
+                <section class="colaboraciones-rochidibus">
+                    <h3 class="main__subtittle">Animaciones</h3>
+                    <h4 class="main__subtittle">RochiDibus</h4>
+                    <div>                
+                        <img class="imagen__ajuste" src="../images/logo_instagram.png" alt="logo_instagram" width="30" height="30">
+                        <a class= "links" href="">RochiDibus</a>
+                    </div><br>
+                </section>
+
+                <section class="Desarolloweb">
+                    <h3 class="main__subtittle">Diseño web</h3>
+                    <h4 a class="main__subtittle">Martina Peker</h4>
+                    <div>            
+                        <img class= "imagen__ajuste" src="../images/logo_instagram.png" alt="logo_instagram" width="30" height="30">
+                        <a class= "links" class="main__subtittle" href="www.instagram.com/martiipeker">Marti Peker</a>
+                    </div>
+                        <img class="imagen__ajuste" src="../images/rochidibu_contacto1.png" alt="RochiDibus" width="200" height="200">
+                        <img class="imagen__ajuste" src="../images/rochidibu_contacto2.png" alt="RochiDibus" width="200" height="200">
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h5 class="derechos">Derechos reservados a Lurba Ceramica © 2022</h5>
+        <img class="logomarti" src="../images/logo_marti.png" alt="logo">
+        <h5 class="nombremarti">Martina Peker | Desarollo Web </h5>        
+    </footer>
+
+</body>
+</html>

@@ -38,8 +38,6 @@
 
 .nav{
     width: 100%;
-    display: grid;
-    justify-content: center;
 }
 
 .nav__list {
@@ -219,7 +217,7 @@
 }
 
 .message-piezas{
-    align-items: center;
+    text-align: center;
     border-radius: 3rem;
     width: 36%;
     display: grid;

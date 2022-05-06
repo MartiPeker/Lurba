@@ -15,9 +15,6 @@
 
 }
 
-
-/*---------Header----------*/
-
 .header {
     background-color: #F7B297;
     box-shadow: 0 2px 5px rgba(161, 108, 8, 0.4);
@@ -26,15 +23,11 @@
     grid-template-columns:  auto 30%;
 }
 
-/* .nav__item--invisible{
-    display: none;
-} */
 
 .logolurba{
     border-radius: 3rem;
 }
 
-/*---------Nav----------*/
 
 .nav{
     width: 100%;
@@ -47,8 +40,6 @@
 .nav__item{
     margin: 3%;
     display: inline-block;
-    /* position: relative;
-    left: 70%; */
 }
 
 .nav__enlace{
@@ -57,8 +48,6 @@
     font-size:large;
 }
 
-/*--------Grids---------*/
-/*---INICIO----*/
 
 .grid-inicio{
     margin:auto;
@@ -81,7 +70,6 @@
     border: 2px solid;
     border-color: #F7B297;
     animation: img-appear 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.10s;
-    /* animation: img-inicio 1s cubic-bezier(0.050, 0.250, 0.450, 0.660) both;*/
 }
 
 /*--------ANIMACIONES---------*/
@@ -108,19 +96,6 @@
         transform: translateX(8px) translateY(-8px);
     }
   }
-  
-
- /* @keyframes img-inicio {
-    0% {
-        transform: translateX(0);
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(100px);
-        transform: translateX(100px);
-    }
-
-  } */
 
 .main-inicio__images{
     display: grid;
@@ -166,8 +141,6 @@
 }
 
 
-/*---Piezas---*/
-
 .grid-piezas{
     margin: auto;
     width: 100%;
@@ -184,7 +157,6 @@
     
 }
 
-/*---Muestras---*/
 
 .grid-muestras{
     display: grid;
@@ -202,7 +174,6 @@
 .message-muestras{
     text-align: center;
 }
-/*------*/
 
 .img-piezas{
     border-radius: 2rem;
@@ -231,8 +202,6 @@
     justify-self: start;
 }
 
-
-/*---Sobre Mi---*/
 
 .grid-sobremi{
     margin:auto;
@@ -304,10 +273,6 @@
 }
 
 
-/*---Muestras---*/
-
-/*---Contacto---*/
-
 .grid-contacto{
     display: grid;
     justify-content: center;
@@ -318,8 +283,6 @@
 .formulario {
     color: #663500;
     font-weight: bolder;
-    /* display: grid;
-    justify-content: center; */
 }
 
 .item-formulario{
@@ -336,8 +299,6 @@
     background-color: #FAAD82;
 }
 
-
-/*---------Main---------*/
 
 .main{
     width: 100%;
@@ -368,11 +329,6 @@
 }
 
 
-
-
-
-/*------Footer------*/
-
 .footer{
     width: 100%;
     background-color: #F7B297;
@@ -390,8 +346,6 @@
     border-radius: 3rem;
 }
 
-
-/*---Media Queries---*/
 
 @media screen and (max-width: 700px){
     .header{
@@ -450,62 +404,5 @@
 }
 
 }
-
-
-/*
-@media all and (max-width: 767.98px){
-    header.nav{
-        display:"none";
-    }
-
-    .header__open{
-    text-decoration: none;
-    }
-
-    .header__icono{
-    display: block;
-    font-size: 32px;
-    color:#6d4002;
-    }
-
-    #sidebar .nav__list{
-        flex-direction: column;
-        height: 100%;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    #sidebar:target{
-        transform: translateX(0);
-    }
-
-    #sidebar{
-        background-color: rgba(255, 215, 106, 0.519);
-        color:#bba004;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 80%;
-        max-width: 300px;
-        padding: 2rem;
-        z-index: 1000;
-
-        transform: translateX(-100%);
-        transition: transform 0,5s;
-    }
-} */
-
-/* @-webkit-keyframes img-inicio {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    100% {
-      -webkit-transform: translateX(100px);
-              transform: translateX(100px);
-    }
-  } */
- 
   
   

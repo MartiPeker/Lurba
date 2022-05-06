@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+$primary: rgb(238, 163, 163);
+$secondary: rgb(255, 137, 176);
+$warning: rgb(238,244,112,1);
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "warning": $warning
+);
+
+@mixin animate($animation, $duration, $method, $times){
+    animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        @content;
+    }
+
+.img-appear{
+    @include keyframes(fade){
+        0%{ 
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @include animate(fade, 30s, linear, 1);
+}
+
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

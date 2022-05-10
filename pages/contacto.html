@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <link rel="stylesheet" href="../sass/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Contacto | LurBa</title>
-
 </head>
-<body> 
+
+<body class="background-gradient">
     <header class="nav shadow mb-5 container-fluid">     
         <div class="col">
-            <img class= "rounded-circle" src="../images/logo.png" alt="Logo">
+            <img class= "img-ajuste" src="../images/logo.png" alt="Logo">
         </div>
         <div class="col">          
-            <nav class="navbar navbar-expand-lg navbar-light">                        
+            <nav class="navbar navbar-expand-lg navbar-light pt-5">                        
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,22 +40,22 @@
 
     <main class="container-sm">
         <section class="container mb-5">
-            <h1 class="display-3 text-center">Contacto</h1>
+            <h1 class="display-3 text-center pb-5">Contacto</h1>
             <p class="lead mb-5">Podes consultar-encargar a través de:</p>
-            <div class="col">
+            <div class="col pb-5">
                 <img class="rounded-circle" src="../images/logo_correo.png" alt="logo_correo" width="30" height="30">
                 <a class= "link-danger" href="mailto:lurbaceramica@hotmail.com">lurba.ceramica@hotmail.com</a>
             </div>
-            <div class="col">
+            <div class="col pb-5">
                 <img class="rounded-circle" src="../images/logo_instagram.png" alt="logo_instagram" width="30" height="30">
                 <a class= "link-danger" href="https//:www.instagram.com/lurbaceramica">LurBa Ceramica</a>
             </div>
 
-            <section class= "container-sm text-center">          
+            <section class= "container-sm text-center pb-5">          
                 <p class="lead mt-5">Tambien podes dejarnos tu consulta aca!</p>
                 <p class="lead mb-5">Recorda ingresar tu número de contacto asi te respondemos a la brevedad :)</p>
                 <form action="">
-                    <div class="">
+                    <div>
                         <label class= "form-label lead" for="nombre">Nombre:</label>
                         <input class="form-control" type="text"  name="nombre" id="nombre" placeholder="Decinos tu nombre...">
                     </div>
@@ -73,49 +74,21 @@
                     <div>
                         <textarea class="form-control" name="comentario" id="comentario"
                         cols="50" rows="10"></textarea>
-                        <input class="btn btn-primary col-2" type="submit" value="Enviar">                
-                        <input class="btn btn-primary col-2" type="reset" value="Limpiar">          
+                        <input class="btn btn-danger col-2" type="submit" value="Enviar">                
+                        <input class="btn btn-danger col-2" type="reset" value="Limpiar">          
                     </div>
                 </form>
             </section>
-
-            
-            <section class="mt-5">
-                <h1 class="display-6 text-center">Contacto de colaboraciones:</h1>
-                <section class="container mt-5 row align-items-center">
-                    <div class="col text-center">
-                        <p class="display-6 ">Animaciones</p>
-                        <p class="lead">RochiDibus</p>
-                    </div>
-                    <div class="col">                
-                        <img class="rounded-circle" src="../images/logo_instagram.png" alt="logo_instagram" width="30" height="30">
-                        <a class= "link-danger" href="../images/rochidibu_contacto1.png">RochiDibus</a>
-                    </div><br>
-                </section>
-
-                <section class="container mt-5 row align-items-center">
-                    <div class="col text-center">
-                        <p class= "display-6 ">Diseño web</p>
-                        <p class="lead">Martina Peker</p>
-                    </div>
-                    <div class="col mb-5">            
-                            <img class= "rounded-circle" src="../images/logo_instagram.png" alt="logo_instagram" width="30" height="30">
-                            <a class= "link-danger" class="" href="www.instagram.com/martiipeker">Marti Peker</a>
-                        </div>
-                </section>    
-                    <section class="container row mt-5 justify-content-center">
-                        <div class="col-3">
-                        <img class="rounded-circle" src="../images/rochidibu_contacto1.png" alt="RochiDibus" width="200" height="200">
-                        </div>
-                        <div class="col-3">
-                        <img class="rounded-circle" src="../images/rochidibu_contacto2.png" alt="RochiDibus" width="200" height="200">
-                        </div>                   
-                    </section>
-            </section>
+        </section>
+        <section class="container pb-5">
+            <div class="text-center">
+                <p class="lead">Con amor, Lurba.</p>
+                <img class= "rounded-circle" src="../images/rochidibu-contacto.png" width= 400px height= 400px alt="RochiDibu">
+            </div>
         </section>
     </main>
 
-    <footer class="container-fluid text-center shadow-lg p-3 mt-5 bg-body rounded">
+    <footer class="container-fluid text-center shadow-lg p-3 mt-5">
         <p class="lead">Derechos reservados a Lurba Ceramica © 2022</p>
         <img class="rounded-circle" src="../images/logo_marti.png" alt="logo">
         <p class="lead">Martina Peker | Desarollo Web </p>

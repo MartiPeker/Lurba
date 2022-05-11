@@ -1,0 +1,20 @@
+@import "estructure";
+@import "animation";
+@import "responsive";   
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+$primary: rgba(247, 28, 255, 0.6);
+$secondary: rgb(206, 219, 14);
+$danger: rgb(247, 121, 169);
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "danger": $danger
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

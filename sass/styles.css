@@ -1,12 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .background-gradient {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #f7b297), color-stop(70%, rgba(245, 211, 161, 0.705)), color-stop(90%, #f7b297));
+  background: linear-gradient(0deg, #f7b297 40%, rgba(245, 211, 161, 0.705) 70%, #f7b297 90%);
   margin-bottom: 50px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #f7b297), color-stop(30%, #eef470), color-stop(70%, #f9ff72), color-stop(90%, #f7b297));
-  background: linear-gradient(0deg, #f7b297 10%, #eef470 30%, #f9ff72 70%, #f7b297 90%);
+  text-align: center;
 }
 
 .background-gradient .img-ajuste {
-  border-radius: 3rem;
+  border-radius: 100%;
   padding: 1rem;
+}
+
+.background-gradient .boxShadow {
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgba(240, 217, 202, 0.842);
+  padding: 30px 20px;
+  -webkit-box-shadow: 0 20px 30px rgba(126, 74, 27, 0.533) 0, 0, 0, 0.2;
+          box-shadow: 0 20px 30px rgba(126, 74, 27, 0.533) 0, 0, 0, 0.2;
+}
+
+.background-gradient .footer {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #f7b297), color-stop(70%, rgba(245, 211, 161, 0.705)), color-stop(90%, #f7b297));
+  background: linear-gradient(0deg, #f7b297 40%, rgba(245, 211, 161, 0.705) 70%, #f7b297 90%);
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .background-gradient .img-appear {

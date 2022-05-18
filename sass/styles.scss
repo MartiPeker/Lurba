@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import "estructure";
 @import "animation";
 @import "responsive";   
@@ -16,5 +22,6 @@ $theme-colors: (
     "secondary": $secondary,
     "danger": $danger
 );
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -4,58 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:ital,wght@1,500&family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="description" content="Ceramica Artesanal. Pedidos y envios PERSONALIZADOS a todo el pais.">
+    <meta name="keywords" content="Ceramica artesanal, ceramica experimental, alfareria, alfar, badana, cobaltina, crisol, gelberda, melado, mufla, sajelar, terraja, vidriar, decoracion, hogar, Argentina, envios, todo el pais, personalizado, Buenos Aires, pigmentos, ">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="./sass/styles.css">
     <title>LurBa</title>
 </head>
-<body class="body">
 
-    <header class="header">
-        <img class= "logolurba" src="./images/logo.png" alt="Logo">        
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                <a class= "nav__enlace" href="index.html">Inicio</a></li>
-                <li class="nav__item">
-                <a class="nav__enlace" href="./pages/piezas.html">Piezas</a></li>
-                <li class="nav__item">
-                <a class="nav__enlace" href="./pages/sobre_mi.html">Sobre mi</a></li>
-                <li class="nav__item">
-                <a class="nav__enlace" href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+<body class="background-gradient">
+    <header class="nav shadow mb-5 container-fluid">     
+        <div class="col d-inline-flex">
+            <img class= "img-ajuste" src="./images/logo.png" alt="Logo">
+        </div>
+        <div class="d-inline-flex ">          
+            <nav class="justify-content-end navbar navbar-expand-lg navbar-light">                        
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>             
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class= "nav-link" href="./index.html">Inicio</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/piezas.html">Piezas</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobre_mi.html">Sobre mi</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main class="main">
-        <div class="grid-inicio">
-            <h1 class="main__tittle">Ceramica Artesanal</h1>
-            <section class="main-inicio__images">
-                <img class= "img-inicio" src="./images/paltas_inicio.png" alt="Paltas">
-                <img class= "img-inicio" src="./images/patitas_inicio.png" alt="Patitas">
-                <img class= "img-inicio" src="./images/pianitos_inicio.png" alt="Pianitos">
-                <img class= "img-inicio" src="./images/donas_piezas.png" alt="Donas">
-                <img class= "img-inicio" src="./images/pizza_inicio.png" alt="Pizza">
-            </section>
 
-            <section class="message">
-                <div class="div-message-inicio">
-                <h3 class="message-inicio">Del taller a tus manos, siempre con amor</h3>
+    <main class="container-fluid">
+        <div>
+            <h1 class="display-3 text-center pb-5">Ceramica Artesanal</h1>
+            <div class="text-center pb-5">
+                <img class= "img-ajuste float-center img-fluid img-appear" src="./images/patitas_inicio.png" alt="Patitas">
+                <img class= "img-ajuste float-center img-fluid img-appear" src="./images/paltas_inicio.png" alt="Paltas">
+                <img class= "img-ajuste float-center img-fluid img-appear" src="./images/pianitos_inicio.png" alt="Pianitos">
+                <img class= "img-ajuste float-center img-fluid img-appear" src="./images/donas_piezas.png" alt="Donas">
+                <img class= "img-ajuste float-center img-fluid img-appear" src="./images/pizza_inicio.png" alt="Pizza">
+            </div>
+
+            <section class="boxShadow d-inline-flex pt-5">
+                <div class= "col" >
+                <p class= " lead">Del taller a tus manos, siempre con amor</p>
                 </div>
-                <div class="dibujo-chili">
-                    <img class="borde-img" src="./images/chili.png" alt="chili">
+                <div class="col text-end">
+                    <img class="rounded-circle float-center" src="./images/chili.png" alt="chili">
                 </div>
             </section>
         </div>
         </main>
 
-    <footer class="footer">
-        <h5 class="derechos">Derechos reservados a Lurba Ceramica © 2022</h5>
-        <img class="logomarti" src="./images/logo_marti.png" alt="logo">
-        <h5 class="nombremarti">Martina Peker | Desarollo Web </h5>
+    <footer class="footer container-fluid shadow-lg p-3 mt-5">
+        <p class="lead">Derechos reservados a Lurba Ceramica © 2022</p>
+        <img class="rounded-circle" src="./images/logo_marti.png" alt="logo">
+        <p class="lead">Martina Peker | Desarollo Web </p>
     </footer>
     
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

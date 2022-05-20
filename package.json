@@ -1,0 +1,20 @@
+{
+  "name": "lurba-peker",
+  "version": "1.0.0",
+  "description": "Página diseñada en base a consignas a cumplir de coderhouse, en donde se incluyen 5 paginas mobiles/desktop con SASS y Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/styles.scss sass/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

@@ -4,88 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:ital,wght@1,500&family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../sass/styles.css">
     <title>Muestras | LurBa</title>
 </head>
 
-<body class="body"> 
-    <header class="header">
-        <img class= "logolurba" src="../images/logo.png" alt="Logo">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                <a class= "nav__enlace" href="../index.html">Inicio</a></li>
-                <li class="nav__item">
-                <a class="nav__enlace" href="../pages/piezas.html">Piezas</a></li>
-                <li class="nav__item">
-                <a class="nav__enlace" href="../pages/sobre_mi.html">Sobre mi</a></li>
-                <li class="nav__item">
-                <a class="nav__enlace" href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> 
+<body class="background-gradient">
+    <header class="nav shadow mb-5 container-fluid">     
+        <div class="col d-inline-flex">
+            <img class= "img-ajuste" src="../images/logo.png" alt="Logo">
+        </div>
+        <div class="d-inline-flex ">          
+            <nav class="justify-content-end navbar navbar-expand-lg navbar-light">                        
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>             
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class= "nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./piezas.html">Piezas</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./sobre_mi.html">Sobre mi</a></li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-
-    <h1 class="main__tittle">Algunas muestras de color-textura</h1>
-    <main>
-        <section class="grid-muestras">
-            <section class="main__img-muestras">
-                <div>
-                    <h3 class="fuentedescripcion">Frios</h3>
-                    <img class= "main__muestra"  src="../images/color0.png" alt="Negro" width="70" height="70">
-                    <h6 class="fuentedescripcion">Negro</h6>
-                    <img  class= "main__muestra" src="../images/color1.png" alt="Beige oscuro" width="70" height="70">
-                    <h6 class="fuentedescripcion">Beige oscuro</h6>
-                    <img class= "main__muestra"  src="../images/color2.png" alt="Azul" width="70" height="70">
-                    <h6 class="fuentedescripcion">Azul</h6>
-                    <img  class= "main__muestra" src="../images/color3.png" alt="Verde oliva" width="70" height="70">
-                    <h6 class="fuentedescripcion">Verde oliva</h6>
-                    <img  class= "main__muestra" src="../images/color4.png" alt="Verde claro" width="70" height="70">
-                    <h6 class="fuentedescripcion">Verde claro</h6>
+    
+    <main class="container">
+        <h1 class="display-3 text-center mb-5">Algunas muestras de color-textura</h1>
+        <div class="container">
+            <section class="row align-items-start">
+                <div class="col">
+                    <h3 class="display-6 mb-3">Frios</h3>                    
+                    <img  class= "rounded" src="../images/color1.png" alt="Beige oscuro" width="70" height="70">
+                    <p class="lead">Beige oscuro</p>
+                    <img class= "rounded"  src="../images/color2.png" alt="Azul" width="70" height="70">
+                    <p class="lead">Azul</p>
+                    <img  class= "rounded" src="../images/color3.png" alt="Verde oliva" width="70" height="70">
+                    <p class="lead">Verde oliva</p>
+                    <img  class= "rounded" src="../images/color4.png" alt="Verde claro" width="70" height="70">
+                    <p class="lead">Verde claro</p>
+                </div>
+                <div class="col">
+                    <h3 class="display-6 mb-3">Cálidos</h3>
+                    <img  class= "rounded" src="../images/color5.png" alt="Amarillo" width="70" height="70">
+                    <p class="lead">Amarillo</p>
+                    <img  class= "rounded" src="../images/color6.png" alt="Naranja" width="70" height="70">
+                    <p class="lead">Naranja</p>
+                    <img  class= "rounded" src="../images/color7.png" alt="Rojo" width="70" height="70">
+                    <p class="lead">Rojo</p>
+                    <img  class= "rounded" src="../images/color8.png" alt="Rosa viejo" width="70" height="70">
+                    <p class="lead">Rosa viejo</p>
+                </div>
+                <div class="col">
+                    <h3 class="display-6 mb-3">Texturas</h3>      
+                    <img  class= "rounded" src="../images/color9.png" alt="Vetas de color" width="70" height="70">
+                    <p class="lead">Vetas de color</p>
+                    <img  class= "rounded" src="../images/color10.png" alt="Salpicadura" width="70" height="70">
+                    <p class="lead">Salpicadura</p>
+                    <img class= "rounded"  src="../images/color12.png" alt="Textura impresa 2" width="70" height="70">
+                    <p class="lead">Textura impresa</p>
+                    <img class= "rounded"  src="../images/color13.png" alt="Grabado a elección" width="70" height="70">
+                    <p class="lead">Grabado a elección</p>
                 </div>
             </section>
-            <section class="main__img-muestras">
-                <div>
-                    <h3 class="fuentedescripcion">Cálidos</h3>
-                    <img  class= "main__muestra" src="../images/color5.png" alt="Amarillo" width="70" height="70">
-                    <h6 class="fuentedescripcion">Amarillo</h6>
-                    <img  class= "main__muestra" src="../images/color6.png" alt="Naranja" width="70" height="70">
-                    <h6 class="fuentedescripcion">Naranja</h6>
-                    <img  class= "main__muestra" src="../images/color7.png" alt="Rojo" width="70" height="70">
-                    <h6 class="fuentedescripcion">Rojo</h6>
-                    <img  class= "main__muestra" src="../images/color8.png" alt="Rosa viejo" width="70" height="70">
-                    <h6 class="fuentedescripcion">Rosa viejo</h6>
-                </div>
-            </section>
-            <section class="main__img-muestras">
-                <div>
-                    <h3 class="fuentedescripcion">Texturas</h3>      
-                    <img  class= "main__muestra" class= "main__muestra" src="../images/color9.png" alt="Vetas de color" width="70" height="70">
-                    <h6 class="fuentedescripcion">Vetas de color</h6>
-                    <img  class= "main__muestra" src="../images/color10.png" alt="Salpicadura" width="70" height="70">
-                    <h6 class="fuentedescripcion">Salpicadura</h6>
-                    <img  class= "main__muestra" src="../images/color11.png" alt="Textura impresa" width="70" height="70">
-                    <h6 class="fuentedescripcion">Textura impresa</h6>
-                    <img class= "main__muestra"  src="../images/color12.png" alt="Textura impresa 2" width="70" height="70">
-                    <h6 class="fuentedescripcion">Textura impresa sutil</h6>
-                    <img class= "main__muestra"  src="../images/color13.png" alt="Grabado a elección" width="70" height="70">
-                    <h6 class="fuentedescripcion">Grabado a elección</h6>
-                </div>
-            </section>
-        </section>
-        <section>
-            <h2 class="message-muestras">Si tenes alguna idea en mente no te limites por lo que no vez, no dudes en consultar y personalizar eso que no encontras en ningun lado!</h2>
+        </div>
+        <section class="container-sm mt-5">
+            <p class="display-6 text-center">Si tenes alguna idea en mente no te limites por lo que no vez, no dudes en consultar y personalizar eso que no encontras en ningun lado!</p>
         </section>
     </main>
 
    
-    <footer class="footer">
-        <p class="derechos">Derechos reservados a Lurba Ceramica © 2022</p>
-        <img class="logomarti" src="../images/logo_marti.png" alt="logo">
-        <p class="nombremarti">Martina Peker | Desarollo Web </p>        
+    <footer class="footer container-fluid shadow-lg p-3 mt-5">
+        <p class="lead">Derechos reservados a Lurba Ceramica © 2022</p>
+        <img class="rounded-circle" src="../images/logo_marti.png" alt="logo">
+        <p class="lead">Martina Peker | Desarollo Web </p>
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>

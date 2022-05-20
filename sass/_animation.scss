@@ -1,0 +1,32 @@
+.background-gradient{
+    .img-appear{
+        animation: img-appear 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.10s;
+    } 
+    @keyframes img-appear {
+        0% {
+            transform: scale(0);
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    .shadow-beat{
+        animation: shadow-beat 1.3s ease-in infinite alternate-reverse;
+    }
+    
+    
+      @keyframes shadow-beat {
+        0% {
+            box-shadow: 0 0 #FAAD82, 0 0 #FAAD82, 0 0 #FAAD82, 0 0 #FAAD82, 0 0 #FAAD82, 0 0 #FAAD82, 0 0 #FAAD82, 0 0 #FAAD82;
+            transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+        }
+        100% {
+            box-shadow: -1px 1px #FAAD82, -2px 2px #FAAD82, -3px 3px #FAAD82, -4px 4px #FAAD82, -5px 5px #FAAD82, -6px 6px #FAAD82, -7px 7px #FAAD82, -8px 8px #FAAD82;
+            transform: translateX(8px) translateY(-8px);
+        }
+      }
+}

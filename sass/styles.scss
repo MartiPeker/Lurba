@@ -15,12 +15,16 @@
 $primary: rgba(247, 28, 255, 0.6);
 $secondary: rgb(206, 219, 14);
 $danger: rgb(247, 121, 169);
+$rosita:rgba(240, 217, 202, 0.842);
+$caramelo: rgba(243, 159, 62, 0.322);
 
 
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
-    "danger": $danger
+    "danger": $danger,
+    "rosita": $rosita,
+    "caramelo":$caramelo
 );
 
 

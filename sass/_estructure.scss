@@ -1,10 +1,10 @@
 $rosita:rgba(240, 217, 202, 0.842);
+$caramelo: rgba(243, 159, 62, 0.322);
 $width: 100%;
 $height: 100%;
 
 @mixin backgroundColor(){
-    background: linear-gradient(0deg, rgba(247,178,151,1) 40%, rgba(245, 211, 161, 0.705) 70%, rgba(247,178,151,1) 90%);
-    margin-bottom: 50px;
+    background-color: rgba(247, 178, 151, 0.253);
     text-align: center;
 }
 
@@ -12,23 +12,19 @@ $height: 100%;
     width: $width/2;
     border-radius: 20px;
     background-color: $rosita;
-    padding: 30px 20px;
-    box-shadow: 0 20px 30px rgba(126, 74, 27, 0.533)(0, 0, 0, 0.2);
+    padding: 40px 50px;
+    box-shadow: 0 20px 30px rgba(177, 140, 109, 0.533)(0, 0, 0, 0.2);
 }
-   
 
-// @mixin contenidoResponsive { --no tiene sentido esto, solo queria seguir agregando ejemplos--
-//     width: $width;
-//     text-align: center;    
-// }
+@mixin form(){
+    width: $width/2;
+}
+
+
 
 .background-gradient{
     @include backgroundColor();
-
-    // .contenidoCentral{
-    //     @include contenidoResponsive();
-    // }
-
+    
     .img-ajuste{
         border-radius: 100%;
         padding: 1rem;

@@ -1,7 +1,7 @@
 {
   "name": "lurba-peker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Página diseñada en base a consignas a cumplir de coderhouse, en donde se incluyen 5 paginas mobiles/desktop con SASS y Bootstrap",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

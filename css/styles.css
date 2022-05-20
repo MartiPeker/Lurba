@@ -1,6 +1,6 @@
 .background-gradient {
-  margin-bottom: 50px;
-  background: linear-gradient(0deg, #f7b297 10%, #eef470 30%, #f9ff72 70%, #f7b297 90%); }
+  background-color: #f7b29733;
+}
 
 .shadow-beat {
   animation: shadow-beat 1.3s ease-in infinite alternate-reverse; }

@@ -18,6 +18,9 @@ $height: 100%;
 
 @mixin form(){
     width: $width/2;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
 
 

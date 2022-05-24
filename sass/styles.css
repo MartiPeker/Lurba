@@ -6,8 +6,9 @@
 }
 
 .background-gradient {
-  background-color: rgba(247, 178, 151, 0.253);
+  background-color: rgba(245, 135, 91, 0.253);
   text-align: center;
+  color: rgba(82, 45, 3, 0.966);
 }
 
 .background-gradient .img-ajuste {
@@ -24,9 +25,10 @@
           box-shadow: 0 20px 30px rgba(177, 140, 109, 0.533) 0, 0, 0, 0.2;
 }
 
-.background-gradient .footer {
-  background-color: rgba(247, 178, 151, 0.253);
+.background-gradient .footer-header {
+  background-color: rgba(245, 135, 91, 0.253);
   text-align: center;
+  color: rgba(82, 45, 3, 0.966);
 }
 
 .background-gradient .img-appear {

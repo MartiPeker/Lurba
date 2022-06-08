@@ -11,18 +11,23 @@
   color: rgba(82, 45, 3, 0.966);
 }
 
+.background-gradient .card-img-top-piezas {
+  width: 100%;
+  height: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .background-gradient .img-ajuste {
   border-radius: 100%;
-  padding: 1rem;
+  padding: 1px;
 }
 
 .background-gradient .boxShadow {
   width: 50%;
-  border-radius: 20px;
+  border-radius: 1rem;
   background-color: rgba(240, 217, 202, 0.842);
-  padding: 40px 50px;
-  -webkit-box-shadow: 0 20px 30px rgba(177, 140, 109, 0.533) 0, 0, 0, 0.2;
-          box-shadow: 0 20px 30px rgba(177, 140, 109, 0.533) 0, 0, 0, 0.2;
+  padding: 20px 20px;
 }
 
 .background-gradient .footer-header {
@@ -98,6 +103,13 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .img-sm-full {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .iframe {
     width: 70%;
@@ -107,10 +119,10 @@
 
 @media screen and (max-width: 500px) {
   .img-sm {
-    border: 2px solid;
-    border-color: #FAAD82;
-    -webkit-animation: none;
-            animation: none;
+    width: 100%;
+    height: 50vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .iframe {
     width: 70%;

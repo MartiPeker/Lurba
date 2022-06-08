@@ -11,10 +11,9 @@ $height: 100%;
 
 @mixin box(){
     width: $width/2;
-    border-radius: 20px;
+    border-radius: 1rem;
     background-color: $rosita;
-    padding: 40px 50px;
-    box-shadow: 0 20px 30px rgba(177, 140, 109, 0.533)(0, 0, 0, 0.2);
+    padding: 20px 20px;
 }
 
 @mixin form(){
@@ -24,14 +23,18 @@ $height: 100%;
     justify-self: center;
 }
 
-
-
 .background-gradient{
     @include backgroundColor();
-    
+
+    .card-img-top-piezas {
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+
     .img-ajuste{
         border-radius: 100%;
-        padding: 1rem;
+        padding: 1px;        
     }
 
     .boxShadow{
